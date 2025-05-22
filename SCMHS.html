@@ -337,4 +337,8 @@
         document.documentElement.classList.toggle('calm-mode');
         localStorage.setItem('calmMode', this.checked);
       });
-
+     // Check for saved calm mode preference
+      if (localStorage.getItem('calmMode') === 'true') {
+        document.getElementById('calmModeToggle').checked = true;
+        document.documentElement.classList.add('calm-mode');
+      }
