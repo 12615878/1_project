@@ -332,3 +332,9 @@
       document.getElementById('navToggle').addEventListener('click', function() {
         document.querySelector('.nav-links').classList.toggle('active');
       });
+      // Toggle calm mode
+      document.getElementById('calmModeToggle').addEventListener('change', function() {
+        document.documentElement.classList.toggle('calm-mode');
+        localStorage.setItem('calmMode', this.checked);
+      });
+
