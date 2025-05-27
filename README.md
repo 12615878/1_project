@@ -89,3 +89,5 @@ This is a static frontend demo of a student mental wellness platform. Backend in
 ## 📃 License
 
 This project is for educational and non-commercial use only. All rights reserved © 2025 Campus Calm.
+
+booking pade added by srujan 
